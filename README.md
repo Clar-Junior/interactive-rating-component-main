@@ -92,7 +92,8 @@ btnRate.addEventListener("click", (e) => {
 
 ### Useful resources
 
-- This time nothing for now.
+- [How to make a hover effect in javascript](https://stackoverflow.com/questions/76139442/how-to-make-a-hover-effect-in-javascript)
+- [Markdown badges](https://ileriayo.github.io/markdown-badges/)
 
 ## Author
 
