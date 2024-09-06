@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Soon](https://your-solution-url.com)
-- Live Site URL: [Soon](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-main-BoUEVFBU7d)
+- Live Site URL: [Github Pages](https://clar-junior.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -82,6 +82,7 @@ btnRate.addEventListener("click", (e) => {
     }
 })
 ```
+
 ### Continued development
 
 - DOM manipulation
