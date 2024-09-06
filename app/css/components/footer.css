@@ -1,0 +1,20 @@
+footer {
+	padding: 0.5rem 1rem 1.4rem 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.4rem;
+}
+
+footer > .rate {
+	display: flex;
+	justify-content: space-between;
+}
+
+.attribution {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 1rem;
+}
+.attribution a {
+	color: var(--orange-primary);
+}

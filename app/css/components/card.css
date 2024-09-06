@@ -1,0 +1,52 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--dark-blue-neutral);
+	width: 330px;
+	height: 362px;
+	border-radius: 15px;
+}
+
+.star {
+	padding: 1.3rem 1rem 0.5rem 1rem;
+}
+.star > button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* svg */
+.lucide-star {
+	stroke: var(--orange-primary);
+	fill: var(--orange-primary);
+	width: 17px;
+	height: 17px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 1rem;
+	gap: 1rem;
+}
+section > h2 {
+	text-align: start;
+}
+section > p {
+	line-height: 22px;
+	color: var(--light-grey-neutral);
+	font-family: Overpass;
+}
+
+/* thanks page */
+#newTitle {
+	align-self: center;
+	padding-top: 0.8rem;
+}
+
+#newContent {
+	text-align: center;
+	line-height: 22px;
+	font-family: Overpass;
+}

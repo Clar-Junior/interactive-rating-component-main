@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- custom css -->
+  <link rel="stylesheet" href="app/css/main.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+  <main class="card">
+    <header>
+      <div class="star">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-star">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="title">
+        How did we do?
+      </h2>
+      <p class="content">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+    </section>
+    <footer>
+      <!-- Rating state start -->
+      <div class="rate">
+        <button class="btnUserRate">1</button>
+        <button class="btnUserRate">2</button>
+        <button class="btnUserRate">3</button>
+        <button class="btnUserRate">4</button>
+        <button class="btnUserRate">5</button>
+      </div>
+      <input type="button" value="SUBMIT" id="submit">
+      <!-- Rating state end -->
+    </footer>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">C.Junior</a>.
+  </div>
+
+  <!-- custom js -->
+  <script src="app/js/main.js"></script>
+</body>
+
+</html>

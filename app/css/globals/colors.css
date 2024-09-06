@@ -1,0 +1,8 @@
+:root {
+	--orange-primary: hsl(25, 97%, 53%);
+	--white-neutral: hsl(0, 0%, 100%);
+	--light-grey-neutral: hsl(217, 12%, 63%);
+	--dark-blue-ligher-neutral: hsl(212, 18%, 22%);
+	--dark-blue-neutral: hsl(213, 19%, 18%);
+	--very-dark-blue-neutral: hsl(216, 12%, 8%);
+}

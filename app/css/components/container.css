@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 15px;
+	color: var(--white-neutral);
+	font-family: Overpass;
+	background-color: hsl(216, 12%, 8%);
+	height: 100dvh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

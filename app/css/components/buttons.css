@@ -1,0 +1,96 @@
+button {
+	font-family: Overpass;
+	background-color: var(--dark-blue-ligher-neutral);
+	color: var(--light-grey-neutral);
+	border: none;
+	border-radius: 50%;
+	width: 43px;
+	height: 43px;
+	font-weight: 700;
+}
+
+/* hover */
+footer > .rate > button:hover {
+	background-color: var(--orange-primary);
+	color: var(--very-dark-blue-neutral);
+	cursor: pointer;
+	transition: background-color 400ms ease;
+}
+
+footer > #submit {
+	font-family: Overpass;
+	width: 100%;
+	height: 42px;
+	background-color: var(--orange-primary);
+	color: var(--dark-blue-ligher-neutral);
+	border: none;
+	border-radius: 25px;
+	font-size: 1rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	align-self: center;
+}
+
+footer > #submit:hover {
+	background-color: var(--white-neutral);
+	cursor: pointer;
+	transition: background-color 400ms ease;
+}
+
+/* thank you page */
+.img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2.3rem;
+	padding-bottom: 1.3rem;
+}
+
+.btn {
+	font-family: Overpass;
+	background-color: var(--dark-blue-ligher-neutral);
+	color: var(--orange-primary);
+	border: none;
+	border-radius: 25px;
+	width: 175px;
+	height: 32px;
+	font-weight: 400;
+	font-size: 0.95rem;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem;
+}
+
+.content > h2 {
+	padding-top: 0.8rem;
+	letter-spacing: 1.5px;
+	font-family: var(--overpass);
+	font-weight: 400;
+}
+
+.content > p {
+	text-align: center;
+	line-height: 22px;
+	font-family: Overpass;
+}
+
+/* thanks page */
+.outResp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.outResp > button {
+	width: 50%;
+	height: 35px;
+	font-size: 1rem;
+	font-weight: 400;
+	border-radius: 25px;
+	color: var(--orange-primary);
+	align-self: center;
+}
